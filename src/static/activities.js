@@ -5012,6 +5012,34 @@ const activities = [
     "streak": 1
   },
   {
+    "run_id": 4435487446,
+    "name": "Afternoon Run",
+    "distance": 3232.9,
+    "moving_time": "0:28:17",
+    "type": "Run",
+    "start_date": "2020-10-18 21:59:42+00:00",
+    "start_date_local": "2020-10-18 14:59:42",
+    "location_country": "United States",
+    "summary_polyline": "ktpgElxmjUTOTUFCFFBLMLIPc@^k@n@MHQVMLe@Li@ZEAAGYCi@Rc@b@G@[CYP@N?j@AC@ABJBpAHFJZDBJ@f@EVI^Ap@SZNVZTj@V\\Jh@T`@F^CLSNOA_@UQCa@Am@BQDGDa@HKR[R]BGDO?m@T_@CCQKQIDED?E?HHx@BBNALG~@S|Ae@p@KVMt@Ch@FPF\\XfAf@JJFIH?@FAPDNTXP^x@`Cp@tAHVd@z@TbBErBc@~AQb@SRYf@q@l@c@V]FY?}@NOFi@Be@A]Hi@Ca@?W@KAODKEWEW@YASEI@]EQGkBWa@KAC[IYMwAWQKa@GkABOFc@FgA\\e@HQFSBk@NcAJe@Eg@K]OKC_Ak@o@{@Qa@Uy@CYM_@CeA?c@Ew@Hi@?[NeAX_ALu@N[b@q@@KLBTNF?p@o@BIPS\\O^UXIF?@BB?`@CLHfASJAx@Jn@PVL",
+    "average_heartrate": null,
+    "average_speed": 1.905,
+    "streak": 1
+  },
+  {
+    "run_id": 4435487706,
+    "name": "Morning Run",
+    "distance": 3241.7,
+    "moving_time": "0:23:17",
+    "type": "Run",
+    "start_date": "2020-10-19 13:31:20+00:00",
+    "start_date_local": "2020-10-19 06:31:20",
+    "location_country": "United States",
+    "summary_polyline": "ayngEfjpjUBXE`@@Bp@NnBTdA^t@`@TH~@RpARfATZBd@H`CRv@L~@DGKCAc@@_@B_AA_AQSIUAs@MMAe@MiEq@s@S}@c@a@E[MiB[GG@c@AWK[QSm@SSEYMYSg@WcA[o@[c@UYK]UYKi@_@i@W[KUKOAoBaBY[MGc@]m@Y[_@q@g@IQSSGSu@iAM[u@uAYw@]y@Wa@M_@Y]Wi@g@mA]k@Y_@]g@e@]SISAy@Qo@Ee@Gg@CGCIGK]OcAI[IK]aAKSGGWe@Kg@Ui@I_@QWQQKUq@u@g@Um@a@cAS[?SHYDc@Tu@Tg@FcAd@UFMEI[A]Pu@?c@Pc@NWJCTA\\K?[Ja@?KSw@K{AKs@GSa@KUFg@B[Fq@BGAIGCGA]@uAC{A",
+    "average_heartrate": null,
+    "average_speed": 2.32,
+    "streak": 2
+  },
+  {
     "run_id": 4397729497,
     "name": "Morning Run",
     "distance": 2204.4,
@@ -5023,6 +5051,48 @@ const activities = [
     "summary_polyline": "{bqgEr~mjUCB@FL`@PGN@FEDD@FD?@GxBe@XOf@Q\\UXMjBoAr@i@\\]ZGJFVb@\\|@Vz@BZHVbA|APb@TjBHTT^ZrBDJRTh@x@Xt@ZjAPbAn@`CX\\r@lC`@nARd@@DGPD]MUGWGIa@sAiAqC_@_BOg@OaAMg@Wk@[g@[o@_@i@Ga@I}@GQe@{@O}@GSKu@Q_@_@a@S_@GOIm@[eA_@s@KGIKIAO@]T_@b@y@l@{Ar@o@^[Le@Za@LiBTECKDEAWyAGOI@EBDFCAHAI@?D",
     "average_heartrate": null,
     "average_speed": 2.24,
+    "streak": 1
+  },
+  {
+    "run_id": 4435488108,
+    "name": "Morning Run",
+    "distance": 5236.1,
+    "moving_time": "0:36:25",
+    "type": "Run",
+    "start_date": "2020-11-29 14:12:00+00:00",
+    "start_date_local": "2020-11-29 06:12:00",
+    "location_country": "United States",
+    "summary_polyline": "i|pgEj_njUnBy@VWj@a@f@Yt@QJKh@Sh@_@DAB@DVAl@Xv@ZrAFLb@f@Tf@ThAJp@^dA`@jBx@vA~@|BTtA`@lBZz@b@`Ah@vB\\z@BR\\dAPjAH\\pAdC`@XPVf@hABTKn@Jb@p@dAh@`@~A~Aj@Z|@n@lCzBvDfBdA\\bAd@pEzBNNJ`@?NE`@FFfDp@l@P`Ad@XHrGhA`ALhBJd@HfDP@IQEaAAi@G{AAk@Im@CeAQo@QuAMy@SO?eB]e@Se@WiE}@ACAi@EQIUSUmDaBIIIQWY_@Qs@u@YMa@Y[OkA{@OG]CSKU]IWa@g@YSy@_@][Ue@]]o@y@gAmBQOUYYq@O}@Ka@Ya@Ym@_@gAWm@Ss@KOKGKKo@kAOu@m@oBEWWi@SYUi@S}@E_@[_AKg@K[M]IIQYk@mAEc@?WIa@m@mA[aBa@oAKU[[CII_@Co@O]ECCB@j@CZEFOSK][o@Og@SUEEG?SFKF_@p@]^y@j@KBw@f@m@To@\\_@FSJ{@Be@LKGOBOQKk@E_@SAERDGKATD",
+    "average_heartrate": null,
+    "average_speed": 2.396,
+    "streak": 1
+  },
+  {
+    "run_id": 4435488376,
+    "name": "Afternoon Run",
+    "distance": 3045.8,
+    "moving_time": "0:24:58",
+    "type": "Run",
+    "start_date": "2020-12-02 23:57:08+00:00",
+    "start_date_local": "2020-12-02 15:57:08",
+    "location_country": "United States",
+    "summary_polyline": "irpgExvmjUNX`@fAr@fCVd@V\\P^Rn@\\`BXr@\\bALl@`BbD\\z@F~@VpA^fATz@t@pBH`@Tt@ATIHa@N?HLVRRLRb@dAVXF`@`@t@b@vAJRZZd@dAFRCKo@gA[y@W]Ka@OWUo@We@IUo@iAa@i@EM]YmAs@{@MkBCKAIIEMWkBa@iAc@w@_@}@o@oB]k@c@e@q@]_A[{@KQ?mARs@TOBkA`@[RKDG?GCMOIc@?e@@KHUA[BU@[L_@DWJURYPu@@m@Fa@Cq@BIJM`@]~@c@\\St@]pBsAn@m@b@e@@GDg@AHaAdAmBfBQH_@ZO?SFg@XOLo@VkCTISQiAIEM?SLZUHDBPGKU?",
+    "average_heartrate": null,
+    "average_speed": 2.033,
+    "streak": 1
+  },
+  {
+    "run_id": 4435488729,
+    "name": "Afternoon Run",
+    "distance": 3533.0,
+    "moving_time": "0:28:30",
+    "type": "Run",
+    "start_date": "2020-12-05 23:51:08+00:00",
+    "start_date_local": "2020-12-05 15:51:08",
+    "location_country": "United States",
+    "summary_polyline": "acqgEd}mjUB?BI?g@Eo@?UC@BAAa@Bi@GsB@IJSJEx@BXFRJ`@b@LPABE@?NNPNB\\GRMtAiA\\EZU^QFKDQEBGAQWEQIq@]mAIQI?KEKHg@z@m@f@Cj@@JHDNp@L\\Z\\BL?PJ@@A?DLPDZGPBDf@i@BOAYY{@MUMe@Wg@K]Ua@MEIDGFEVITIAIEA@BJJBBKZSLQAEK@VOHe@AKWy@M}@@M^o@JYABa@OO?IKSMDECYDCHBBECQHq@Cg@HcA?u@ESQ]c@i@IQCo@QeAMg@IMs@oCWq@Ua@KMEBIIOEUHY?q@`@QF[?AFA@ACAFg@NOJIFMX?FW^YBWMSAa@@WFKJGTAZFZFFRHh@W\\[@K?S?KIKWGc@?YJEDGP@d@HXRJf@Q`@[Be@OY[Em@HIJK\\Df@FLPLXHDLHBE?GUCDGAEGVONGNOVo@Zg@R_@f@e@DIAIM_@GC?EEDC@IE?HFL@?DPRBLFLCH@]JUTGPFH@NDBPQFAPF\\b@BZINg@V[VaA|BEH@HHJd@HLFBF@n@FLdBz@x@t@FHHV?P[|A\\f@Nj@NTNhAHZ@bBE~@An@D~@CnA@~EIn@GBMCAD",
+    "average_heartrate": null,
+    "average_speed": 2.066,
     "streak": 1
   }
 ];

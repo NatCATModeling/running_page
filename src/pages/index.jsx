@@ -305,7 +305,7 @@ const YearStat = ({ runs, year, onClick }) => {
       streak = Math.max(streak, run.streak);
     }
   });
-  sumDistance = (sumDistance / 1610.0).toFixed(1);
+  sumDistance = (sumDistance / 1609.3).toFixed(1);
   const avgPace = formatPace(pace / (runs.length - paceNullCount) );
   const hasHeartRate = !(heartRate === 0);
   const avgHeartRate = (heartRate / (runs.length - heartRateNullCount)).toFixed(
@@ -354,7 +354,7 @@ const CitiesStat = () => {
     <div style={{ cursor: 'pointer' }}>
       <section>
         {citiesArr.map(([city, distance]) => (
-          <Stat key={city} value={city} description={` ${(distance / 1610).toFixed(0)} Mi`} citySize={3} />
+          <Stat key={city} value={city} description={` ${(distance / 1609.3).toFixed(0)} Mi`} citySize={3} />
         ))}
       </section>
       <hr color="red" />
@@ -571,7 +571,7 @@ const RunTable = ({
 const RunRow = ({
   runs, run, locateActivity, runIndex, setRunIndex,
 }) => {
-  const distance = (run.distance / 1610.0).toFixed(1);
+  const distance = (run.distance / 1609.3).toFixed(1);
   const pace = run.average_speed;
 
   const paceParts = pace ? formatPace(pace) : null;

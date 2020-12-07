@@ -418,7 +418,7 @@ const RunMap = ({
   return (
     <ReactMapGL
       {...viewport}
-      mapStyle="mapbox://styles/mapbox/streets-v11"
+      mapStyle="mapbox://styles/mapbox/satellite-v9"
       onViewportChange={setViewport}
       onLoad={addControlHandler}
       mapboxApiAccessToken={MAPBOX_TOKEN}
@@ -515,12 +515,12 @@ const RunTable = ({
   const [runIndex, setRunIndex] = useState(-1);
   const [sortFuncInfo, setSortFuncInfo] = useState('');
   // TODO refactor?
-  const sortKMFunc = (a, b) => (sortFuncInfo === 'KM' ? a.distance - b.distance : b.distance - a.distance);
+  const sortKMFunc = (a, b) => (sortFuncInfo === 'Miles' ? a.distance - b.distance : b.distance - a.distance);
   const sortPaceFunc = (a, b) => (sortFuncInfo === 'Pace' ? a.average_speed - b.average_speed : b.average_speed - a.average_speed);
   const sortBPMFunc = (a, b) => (sortFuncInfo === 'BPM' ? a.average_heartrate - b.average_heartrate : b.average_heartrate - a.average_heartrate);
   const sortDateFuncClick = sortFuncInfo === 'Date' ? sortDateFunc : sortDateFuncReverse;
   const sortFuncMap = new Map([
-    ['KM', sortKMFunc],
+    ['Miles', sortKMFunc],
     ['Pace', sortPaceFunc],
     ['BPM', sortBPMFunc],
     ['Date', sortDateFuncClick],

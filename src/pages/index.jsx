@@ -87,7 +87,7 @@ export default () => {
 
   const [viewport, setViewport] = useState({
     width: '100%',
-    height: 400,
+    height: 500,
     ...bounds,
   });
   const changeYear = (y) => {
@@ -97,7 +97,7 @@ export default () => {
     if (viewport.zoom > 3) {
       setViewport({
         width: '100%',
-        height: 400,
+        height: 500,
         ...bounds,
       });
     }
@@ -115,7 +115,7 @@ export default () => {
   useEffect(() => {
     setViewport({
       width: '100%',
-      height: 400,
+      height: 500,
       ...bounds,
     });
   }, [geoData]);
@@ -306,7 +306,7 @@ const YearStat = ({ runs, year, onClick }) => {
     }
   });
   sumDistance = (sumDistance / 1610.0).toFixed(1);
-  const avgPace = formatPace(pace/0.621 / (runs.length - paceNullCount));
+  const avgPace = formatPace(pace / (runs.length - paceNullCount) / 0.621);
   const hasHeartRate = !(heartRate === 0);
   const avgHeartRate = (heartRate / (runs.length - heartRateNullCount)).toFixed(
     0,
@@ -426,7 +426,7 @@ const RunMap = ({
       <RunMapButtons changeYear={changeYear} />
       <Source id="data" type="geojson" data={geoData}>
         <Layer
-          id="prvince"
+          id="province"
           type="fill"
           paint={{
             'fill-color': '#47b8e0',
@@ -572,9 +572,9 @@ const RunRow = ({
   runs, run, locateActivity, runIndex, setRunIndex,
 }) => {
   const distance = (run.distance / 1610.0).toFixed(1);
-  const pace = run.average_speed;
+  const pace = run.average_speed/0.621;
 
-  const paceParts = pace ? formatPace(pace/0.621) : null;
+  const paceParts = pace ? formatPace(pace) : null;
 
   const heartRate = run.average_heartrate;
 

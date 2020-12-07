@@ -305,7 +305,7 @@ const YearStat = ({ runs, year, onClick }) => {
       streak = Math.max(streak, run.streak);
     }
   });
-  sumDistance = (sumDistance / 1000.0).toFixed(1);
+  sumDistance = (sumDistance / 1610.0).toFixed(1);
   const avgPace = formatPace(pace / (runs.length - paceNullCount));
   const hasHeartRate = !(heartRate === 0);
   const avgHeartRate = (heartRate / (runs.length - heartRateNullCount)).toFixed(
@@ -316,7 +316,7 @@ const YearStat = ({ runs, year, onClick }) => {
       <section>
         <Stat value={year} description=" Journey" />
         <Stat value={runs.length} description=" Runs" />
-        <Stat value={sumDistance} description=" KM" />
+        <Stat value={sumDistance} description=" Miles" />
         <Stat value={avgPace} description=" Avg Pace" />
         <Stat
           value={`${streak} day`}
@@ -354,7 +354,7 @@ const CitiesStat = () => {
     <div style={{ cursor: 'pointer' }}>
       <section>
         {citiesArr.map(([city, distance]) => (
-          <Stat key={city} value={city} description={` ${(distance / 1000).toFixed(0)} KM`} citySize={3} />
+          <Stat key={city} value={city} description={` ${(distance / 1610).toFixed(0)} Mi`} citySize={3} />
         ))}
       </section>
       <hr color="red" />
@@ -418,7 +418,7 @@ const RunMap = ({
   return (
     <ReactMapGL
       {...viewport}
-      mapStyle="mapbox://styles/mapbox/dark-v9"
+      mapStyle="mapbox://styles/mapbox/streets-v11"
       onViewportChange={setViewport}
       onLoad={addControlHandler}
       mapboxApiAccessToken={MAPBOX_TOKEN}
@@ -571,7 +571,7 @@ const RunTable = ({
 const RunRow = ({
   runs, run, locateActivity, runIndex, setRunIndex,
 }) => {
-  const distance = (run.distance / 1000.0).toFixed(1);
+  const distance = (run.distance / 1610.0).toFixed(1);
   const pace = run.average_speed;
 
   const paceParts = pace ? formatPace(pace) : null;

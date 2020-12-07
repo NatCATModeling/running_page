@@ -78,7 +78,8 @@ jobs:
         if: env.RUN_TYPE == 'strava'
         run: |
           python scripts/strava_sync.py ${{ secrets.STRAVA_CLIENT_ID }} ${{ secrets.STRAVA_CLIENT_SECRET }} ${{ secrets.STRAVA_CLIENT_REFRESH_TOKEN }}
-
+          python scripts/gpx_sync.py
+          
       - name: Run sync Garmin script
         if: env.RUN_TYPE == 'garmin'
         run: |

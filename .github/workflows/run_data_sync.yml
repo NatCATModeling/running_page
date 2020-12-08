@@ -20,10 +20,10 @@ on:
 
 env:
   # please change to your own config.
-  RUN_TYPE: only_gpx # support runtastic/strava/nike/garmin/garmin_cn/keep/only_gpx/nike_to_strava, Please change the 'pass' it to your own
+  RUN_TYPE: strava # support runtastic/strava/nike/garmin/garmin_cn/keep/only_gpx/nike_to_strava, Please change the 'pass' it to your own
   ATHLETE: NatCAT
-  TITLE: Nat CAT Run
-  TITLE_GRID: Over 10-mile Runs
+  TITLE: NatCAT Run
+  TITLE_GRID: 10+ mile Runs
   GITHUB_NAME: NatCATModeling
   GITHUB_EMAIL: natcatmodeling@gmail.com
 

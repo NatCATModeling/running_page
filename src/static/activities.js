@@ -6004,6 +6004,20 @@ const activities = [
     "average_heartrate": null,
     "average_speed": 2.26,
     "streak": 1
+  },
+  {
+    "run_id": 4972938631,
+    "name": "back from car",
+    "distance": 5139.5,
+    "moving_time": "0:43:10",
+    "type": "Run",
+    "start_date": "2021-03-19 14:26:51+00:00",
+    "start_date_local": "2021-03-19 07:26:51",
+    "location_country": "United States",
+    "summary_polyline": "}vkgEhicjU?\\EJANOhAEv@Sb@AJGzAWhBi@tFIZHN?DOdAEj@SVAF@h@e@tDS|BOfAI`B@zBA|@Dl@Ez@@x@Cf@Bf@Eh@BTCr@B`BEj@Bp@Ez@@@@C?@?h@@HC~A?jBDt@EfA@p@C\\@t@C`BBZEnA@v@CVGJJZ@r@ErAB~@CdA@p@Ev@@`HCpBBVCVADGB?B@CB@DKEb@@d@Ef@Bb@?bA@~@Cj@BTEd@?n@@`@AVBr@AbBBP@xAEf@Bz@Az@@RBLA\\@v@Ad@@p@AhCEj@BtAGp@FXG`@?^IHMGQF]GO@ME{@NKH]FMJi@Te@Xi@P]Tu@ZOJACA?eBf@Q@e@PK?@??DIDGEIHI@EFQ@a@J]Pq@NgA\\c@Fe@PkARo@VwATa@NqAVcDbAw@PmAh@UNq@ZqA|@[\\}@p@y@hAm@l@a@j@eAx@O@BHAN@??CIDWVo@x@IPQTgA|@STMVe@v@q@n@u@`Ac@\\S^c@r@aA|@",
+    "average_heartrate": null,
+    "average_speed": 1.984,
+    "streak": 1
   }
 ];
 

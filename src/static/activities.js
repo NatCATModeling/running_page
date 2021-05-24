@@ -6018,6 +6018,20 @@ const activities = [
     "average_heartrate": null,
     "average_speed": 1.984,
     "streak": 1
+  },
+  {
+    "run_id": 5348217762,
+    "name": "Afternoon Run",
+    "distance": 3238.6,
+    "moving_time": "0:22:45",
+    "type": "Run",
+    "start_date": "2021-05-19 22:43:19+00:00",
+    "start_date_local": "2021-05-19 15:43:19",
+    "location_country": "United States",
+    "summary_polyline": "mcqgE~|mjUFB?FCBDD@TJ\\RN^ALGfAQ`Aa@ZUlA_@NINC`@g@HAVOh@a@b@Gb@MRNVb@Tb@DTPb@HBFABGMmA?SE[g@kAGYO[Mo@O_@QUKWOo@Uk@Wg@EYY_AIwAISKEKI]s@i@w@Qa@Qo@IGOa@C[Cy@Ee@IO[YQ_@Km@A_@Oy@Uq@Ua@M[Ms@Wu@KWOm@u@yAQo@O]s@}Ck@yAKg@]s@Qw@IQ@PBCLV\\~@h@nB\\z@d@fBZr@Tv@p@pA`@vAZv@\\vAZr@VhA@n@Fh@JRj@r@JXBPCR?VLl@r@hBZl@xApBBRB`AVr@f@bBTlAZj@Vz@l@vADLLV@JD~ACNOPGI]qAQi@KMUMUE]PGL]RSVOJIJQJMPMH[Hi@ZWFGHQDQJ]HI?KEEUGEGAQ@YLa@F[@QCKK?UJ]",
+    "average_heartrate": null,
+    "average_speed": 2.373,
+    "streak": 1
   }
 ];
 

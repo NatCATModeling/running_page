@@ -6032,6 +6032,20 @@ const activities = [
     "average_heartrate": null,
     "average_speed": 2.373,
     "streak": 1
+  },
+  {
+    "run_id": 5570890591,
+    "name": "Afternoon Run",
+    "distance": 4861.4,
+    "moving_time": "0:32:43",
+    "type": "Run",
+    "start_date": "2021-07-03 22:17:11+00:00",
+    "start_date_local": "2021-07-03 15:17:11",
+    "location_country": "United States",
+    "summary_polyline": "o{qgE~cmjUKPGPBb@AFGFUFs@?OBQHSBOAOKMCU?GDGPCZBHJXLR`An@HpA@l@Tf@JJRDZCZ@VLVV^JT?p@Ah@DNGRQBOBeACmAEYa@c@O]C]@WJc@?QNm@@s@EQIUOgAIUOQMGGAWJAFAVM^ORg@`@IZEfACFSJqAHWNG@GE_@K]AIFCHCb@BLHNVTf@XRVFZAj@Bz@Tf@JJJ@f@GV@HDt@f@^FrBBV_@HSH_@AYGWA]Im@GMi@k@I_@?e@RcAJ[Da@Gc@Se@Ia@Ai@M_@SEa@VY`AMLYLKLINEV@~@EFWF{@Bi@NQ?a@KO@KDGFId@@JHNLNd@Xd@`@D`@CpADXRZpAFVN\\V`@LdAAn@FJCNSBKEgA@oAGSIS]c@IW?IHoAVo@Bk@EYY}@C{@I]CESC[VKd@OVYVa@VOd@@~@EJUB_AFUHUBM?a@IS@GDGJC^H\\JLNLZLDF@RHd@L`@DlARXLBt@?XBXLRPVJ\\BPDt@?Z@JADELQBG?WCYBu@?e@IWKUe@k@Gu@@o@DSTm@DU?QE[Wu@Cc@GUMUMKGAURI\\Ub@m@d@IJKbAAd@GBkABq@TOCQIW?OFEDENATBRX^x@n@HPDj@ClA@HFJLHL@nADp@d@`@JhBDNANKLMFUD[?eAO{@[o@EO?QKyAPo@@UAWE]Wk@?e@Ee@IWGIG?_@XEHI`@IPYZa@XMXI`@Db@@PJB",
+    "average_heartrate": null,
+    "average_speed": 2.477,
+    "streak": 1
   }
 ];
 
